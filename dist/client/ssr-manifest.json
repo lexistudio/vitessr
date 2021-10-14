@@ -8,69 +8,69 @@
   "src/entry-client.js": [],
   "index.html": [],
   "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/plugin.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/vendor.dc99c740.js"
-  ],
-  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/vuex/dist/vuex.esm-bundler.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
+  ],
+  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [
+    "/assets/vendor.4c7f4053.js"
   ],
   "\u0000commonjsHelpers.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ],
-  "\u0000D:/develop/lomontin/node_modules/vue-3-socket.io/dist/vue-socketio.js?commonjs-module": [
-    "/assets/vendor.dc99c740.js"
+  "\u0000D:/develop/vitessr/node_modules/vue-3-socket.io/dist/vue-socketio.js?commonjs-module": [
+    "/assets/vendor.4c7f4053.js"
   ],
   "node_modules/vue-3-socket.io/dist/vue-socketio.js": [
-    "/assets/vendor.dc99c740.js"
+    "/assets/vendor.4c7f4053.js"
   ]
 }

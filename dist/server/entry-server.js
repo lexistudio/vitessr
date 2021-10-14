@@ -1,15 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports[Symbol.toStringTag] = "Module";
+var vuex = require("vuex");
 var serverRenderer = require("vue/server-renderer");
 var vue = require("vue");
 var vueRouter = require("vue-router");
-var vuex = require("vuex");
-var VueSocketIO = require("vue-3-socket.io");
-function _interopDefaultLegacy(e) {
-  return e && typeof e === "object" && "default" in e ? e : { "default": e };
-}
-var VueSocketIO__default = /* @__PURE__ */ _interopDefaultLegacy(VueSocketIO);
 var _export_sfc = (sfc, props) => {
   for (const [key, val] of props) {
     sfc[key] = val;
@@ -20,6 +15,7 @@ const _sfc_main = {
   data: () => ({
     isSocket: false
   }),
+  computed: vuex.mapGetters(["getMess"]),
   sockets: {
     connect() {
       console.log("socket connected");
@@ -28,7 +24,8 @@ const _sfc_main = {
   }
 };
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(` socket ${serverRenderer.ssrInterpolate(_ctx.isSocket)}`);
+  _push(`<!--[--> socket ${serverRenderer.ssrInterpolate(_ctx.isSocket)} <pre>    ${serverRenderer.ssrInterpolate(_ctx.getMess)}
+  </pre><!--]-->`);
 }
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
@@ -75,16 +72,7 @@ function createApp() {
   const router = createRouter();
   app.use(router);
   app.use(store);
-  app.use(new VueSocketIO__default["default"]({
-    debug: false,
-    connection: "http://localhost:3000",
-    vuex: {
-      store,
-      actionPrefix: "SOCKET_",
-      mutationPrefix: "SOCKET_"
-    }
-  }));
-  return { app, router };
+  return { app, router, store };
 }
 async function render(url, manifest) {
   const { app, router } = createApp();
